@@ -20,7 +20,7 @@
     <section>
         <nav class="navbar navbar-expand-lg bg-light border border-2">
             <div class="container">
-                <!-- <img class="logo" src="../../../PHP/File/public/asset/image/logo.png" alt=""> -->
+                <!-- <img class="logo" src="../../File-Manager/public/asset/image/logo.png" alt=""> -->
                 <a class="navbar-brand nav-container" href="../../../File-Manager/index.php"><img class="logo"
                         src="../../../File-Manager/brta/brta.png" alt=""> বি আর টি এ</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
