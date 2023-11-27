@@ -17,7 +17,7 @@ if (isset($_POST['login'])) {
         $_SESSION['email']    = $email;
         $_SESSION['password'] = $password;
 
-        header("location: ./File-Manager/index.php");
+        header("location: /File-Manager/index.php");
     } else {
         $error_message = "Invalid email or password.";
     }

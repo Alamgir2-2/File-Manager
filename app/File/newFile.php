@@ -157,8 +157,8 @@ if (!isset($_SESSION['email']) || !isset($_SESSION['password'])) {
 
 
 
-    <!-- <script src="../../../../PHP/File/public/JS/script.js"></script> -->
-    <script src="../../../../PHP/File/public/JS/file.js"></script>
+    <!-- <script src="../../../File-Manager/public/JS/script.js"></script> -->
+    <script src="../../../File-Manager/public/JS/file.js"></script>
 </body>
 
 </html>

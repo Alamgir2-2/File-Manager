@@ -2,7 +2,7 @@
 session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-include('../../../../PHP/File/brta/dbConn.php');
+include('../../../File-Manager/brta/dbConn.php');
 
 if (isset($_POST['insert_data'])) {
    $name = $_POST['name'];

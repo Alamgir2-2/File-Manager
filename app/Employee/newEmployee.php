@@ -1,13 +1,13 @@
 <?php
 session_start();
 
-include('../../../../PHP/File/app/header.php');
-include('../../PHP/File/brta/dbConn.php');
+include('../../../File-Manager/app/header.php');
+include('../File-Manager/brta/dbConn.php');
 
 
 if (!isset($_SESSION['email']) || !isset($_SESSION['password'])) {
     // User is not logged in, redirect to the login page
-    header("location: ../../../../../../PHP/File/app/Login/login.php");
+    header("location: ../../../../../File-Manager/app/Login/login.php");
     exit; // Ensure script termination after redirection
 }
 
@@ -166,8 +166,8 @@ if (!isset($_SESSION['email']) || !isset($_SESSION['password'])) {
 
 
 
-    <script src="../../../../PHP/File/public/JS/script.js"></script>
-    <script src="../../../../PHP/File/public/JS/NewEmployee.js"></script>
+    <script src="../../../File-Manager/public/JS/script.js"></script>
+    <script src="../../../File-Manager/public/JS/NewEmployee.js"></script>
 
 
 
