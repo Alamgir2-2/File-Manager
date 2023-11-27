@@ -25,7 +25,7 @@ $(document).ready(function () {
         if (name.trim() !== "" && designation.trim() !== "") {
             $.ajax({
                 type: "POST",
-                url: "../../../../PHP/File/app/Employee/employeeProcess.php",
+                url: "../../../File-Manager/app/Employee/employeeProcess.php",
                 data: {
                     insert_data: true,
                     name: name,
@@ -72,7 +72,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "../../../../PHP/File/app/Employee/employeeProcess.php",
+            url: "../../../File-Manager/app/Employee/employeeProcess.php",
             data: {
                 edit: true,
                 id: id,
@@ -100,7 +100,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "../../../../PHP/File/app/Employee/employeeProcess.php",
+            url: "../../../File-Manager/app/Employee/employeeProcess.php",
             data: {
                 update_data: true,
                 id: id,
@@ -133,7 +133,7 @@ $(document).ready(function () {
 
             $.ajax({
                 type: "POST",
-                url: "../../../../PHP/File/app/Employee/employeeProcess.php",
+                url: "../../../File-Manager/app/Employee/employeeProcess.php",
                 data: {
                     delete: true,
                     id: id,
@@ -155,7 +155,7 @@ $(document).ready(function () {
 function loadData() {
     $.ajax({
         type: "GET",
-        url: "../../../../PHP/File/app/Employee/employeeData.php",
+        url: "../../../File-Manager/app/Employee/employeeData.php",
 
         success: function (response) {
             // console.log(response);
