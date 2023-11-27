@@ -17,7 +17,7 @@ $(document).ready(function () {
 
             $.ajax({
                 type: "POST",
-                url: "../../../../PHP/File/app/File/newFileProcess.php",
+                url: "../../../File-Manager/app/File/newFileProcess.php",
                 data: {
                     insert_data: true,
                     file_name: file_name,
@@ -59,7 +59,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "../../../../PHP/File/app/File/newFileProcess.php",
+            url: "../../../File-Manager/app/File/newFileProcess.php",
             data: {
                 edit: true,
                 id: id,
@@ -88,7 +88,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "../../../../PHP/File/app/File/newFileProcess.php",
+            url: "../../../File-Manager/app/File/newFileProcess.php",
             data: {
                 update_data: true,
                 id: id,
@@ -120,7 +120,7 @@ $(document).ready(function () {
 
             $.ajax({
                 type: "POST",
-                url: "../../../../PHP/File/app/File/newFileProcess.php",
+                url: "../../../File-Manager/app/File/newFileProcess.php",
                 data: {
                     delete: true,
                     id: id,
@@ -142,7 +142,7 @@ $(document).ready(function () {
 function loadData() {
     $.ajax({
         type: "GET",
-        url: "../../../../PHP/File/app/File/tableData.php",
+        url: "../../../File-Manager/app/File/tableData.php",
 
         success: function (response) {
             // console.log(response);
