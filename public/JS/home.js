@@ -13,7 +13,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "../../../../PHP/File/indexProcess.php",
+            url: "../../../File-Manager/indexProcess.php",
             data: {
                 insert_data: true,
                 file_name: file_name,
@@ -53,7 +53,7 @@ $(document).on("click", ".edit_btn", function () {
 
     $.ajax({
         type: "POST",
-        url: "../../../../PHP/File/indexProcess.php",
+        url: "../../../File-Manager/indexProcess.php",
         data: {
             edit: true,
             transaction_id: transaction_id,
@@ -85,7 +85,7 @@ $('#updateBtn').click(function () {
 
     $.ajax({
         type: "POST",
-        url: "../../../../PHP/File/indexProcess.php",
+        url: "../../../File-Manager/indexProcess.php",
         data: {
             update_data: true,
             employee_id: employee_id,
@@ -123,7 +123,7 @@ $(document).on("click", ".delete_btn", function () {
 
         $.ajax({
             type: "POST",
-            url: "../../../../PHP/File/indexProcess.php",
+            url: "../../../File-Manager/indexProcess.php",
             data: {
                 delete: true,
                 transaction_id: transaction_id,
@@ -143,7 +143,7 @@ $(document).on("click", ".delete_btn", function () {
 function loadData() {
     $.ajax({
         type: "GET",
-        url: "../../../../PHP/File/indexdata.php",
+        url: "../../../File-Manager/indexdata.php",
 
         success: function (response) {
             // console.log(response);
