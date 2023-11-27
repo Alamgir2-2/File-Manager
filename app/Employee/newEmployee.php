@@ -167,7 +167,7 @@ if (!isset($_SESSION['email']) || !isset($_SESSION['password'])) {
 
 
     <script src="../../../File-Manager/public/JS/script.js"></script>
-    <script src="../../../File-Manager/public/JS/NewEmployee.js"></script>
+    <script src="../../../File-Manager/public/JS/newEmployee.js"></script>
 
 
 

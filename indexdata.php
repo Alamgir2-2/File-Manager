@@ -1,5 +1,5 @@
 <?php
-include('../../PHP/File/brta/dbConn.php');
+include('../File-Manager/brta/dbConn.php');
 
 $query = "SELECT * FROM `transaction`";
 
